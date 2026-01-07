@@ -18,3 +18,17 @@ View your app in AI Studio: https://ai.studio/apps/drive/1cictpt0w53zM-KIv89yi3e
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+4. Set up Supabase:
+   - Create a project on [Supabase](https://supabase.com/).
+   - Copy `.env.example` to `.env`.
+   - Add your Supabase URL and Anon Key to `.env`.
+
+## Deploy to Netlify
+
+1. Connect your repository to [Netlify](https://www.netlify.com/).
+2. In "Build settings", set:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+3. Add Environment Variables in Netlify site settings:
+   - `VITE_SUPABASE_ANON_KEY`
