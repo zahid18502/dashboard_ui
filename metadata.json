@@ -1,0 +1,8 @@
+{
+  "name": "Zenith Analytics Dashboard",
+  "description": "A high-performance, tool-first data dashboard featuring TanStack Table integration, Recharts analytics, and optimistic UI patterns.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
